@@ -12,6 +12,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-compress');
     grunt.loadNpmTasks('grunt-strip');
+    grunt.loadNpmTasks('grunt-includes');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
 
     // Define the configuration for all the tasks
@@ -26,7 +28,20 @@ module.exports = function (grunt) {
             trash: {
                 src: ["tmp", ".tmp", "dest", "src"]
             }
-        }
+        },
+
+        //copy: {
+        //    dist: {
+        //        files: [
+        //            {
+        //                cwd: 'app/',
+        //                expand: true,
+        //                src: ['**/*.html', '**/*.json', '**/*.png', '**/*.jpg', '**/*.ico'],
+        //                dest: 'dist'
+        //            }
+        //        ]
+        //    }
+        //},
     });
 
     //grunt.registerTask('dist', [

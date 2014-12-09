@@ -1,0 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /*    background: url("http://belleviewchristian.com/wp-content/uploads/2014/03/blue-wallpaper-background-texture-checkbox-1024x640.jpg");*/
+    /*    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQIW2NkYGCQBOLnQAwGjDAG0QKSAD1rAR6LthyCAAAAAElFTkSuQmCC'), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2NkQAWSjEh8SSD7OUwAzAFJggTgHJAAAEkuAx5OdRJCAAAAAElFTkSuQmCC') #000000;*/
+    /*    font: normal 13px/1.5'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, sans-serif;*/
+    letter-spacing: 0.03em;
+
+}
