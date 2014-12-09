@@ -28,7 +28,7 @@ module.exports = function (grunt) {
             trash: {
                 src: ["tmp", ".tmp", "dest", "src"]
             }
-        },
+        }
 
         //copy: {
         //    dist: {

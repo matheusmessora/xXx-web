@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+#angulosoHolder {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9990;
+    vertical-align: baseline;
+    margin: 0;
+    width: 100%;
+}
+
+#anguloso {
+    position: relative;
+    width: 100%;
+
+    opacity: 0.7;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-top: #035EAD 1px solid;
+}
+
+#angulosoHider {
+    position: relative;
+    z-index: 9991;
+    width: auto;
+    float: left;
+}
+#angulosoConsoler {
+    position: relative;
+    z-index: 9991;
+    float: left;
+}
+
+#anguloso .anRequest {
+    color: #FFF;
+    font-size: 14px;
+    padding: 2px 0;
+    background: orange;
+    border-bottom: 1px solid DeepSkyBlue;
+}
+
+#anguloso .anSuccess {
+    background:#026E18;
+}
+
+#anguloso .anError .anStatus {
+    font-weight: bold;
+}
+
+
+#anguloso .anError {
+    background: red;
+}
+
+#anguloso .anExpand {
+    font-size: 10px;
+    display: none;
+    background: #000;
+    color: #FFF;
+    font-family: monospace;
+    padding: 2px;
+}
+
+
+
+
+/*****************
+JSON PRETTY PRINT
+******************/
+.anExpand pre {
+    border: 0;
+    background: #000;
+    padding: 1px 2px;
+    line-height: 1;
+    margin: 2px;
+}
+.json-key {
+    font-weight: bold;
+    color: SkyBlue;
+}
+.json-value {
+    font-weight: bold;
+    color: tomato;
+}
+.json-string {
+    font-weight: bold;
+    color: wheat;
+}
+
+
+
+
+/*****************
+CONSOLER
+******************/
+#consolerHolder {
+    position: relative;
+    width: 100%;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#consoler {
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    border-top: #e8242c 1px solid;
+}
+#consoler .row {
+    border-bottom: 1px solid #f1f1f1;
+}
+#command {
+    width: 90%;
+}
